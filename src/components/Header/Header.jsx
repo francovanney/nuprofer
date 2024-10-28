@@ -1,5 +1,5 @@
 // LogoCarousel.js
-import "./Header.css"; // Archivo CSS que contiene la animación
+import "./header.scss"; // Archivo CSS que contiene la animación
 import Maiz from "../../assets/logo_maiz.png";
 import Soja from "../../assets/logo_soja.png";
 import Trigo from "../../assets/logo_trigo.png";
