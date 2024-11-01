@@ -23,7 +23,7 @@ const productData = [
     id: 2,
     nombre: "Nupro Spray",
     titulo: "CONCENTRADO SOLUBLE",
-    logo: "/src/assets/logoProductos/NUPROACTIVE.png",
+    logo: "/src/assets/logoProductos/NUPROSPRAY SC.png",
     envase: "/path-to-envase/specialoil.jpg",
     descripcion:
       "Alcohol graso etoxilado + silicona + ácido fosfórico secuestrante de cationes",

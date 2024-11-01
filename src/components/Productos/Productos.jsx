@@ -2,7 +2,8 @@
 import "./Productos.scss";
 import React from "react";
 import { Card, Col, Row, Button } from "react-bootstrap";
-import productData from "./../../utils/productData"; // datos simulados para los productos
+import productData from "./../../utils/productData";
+import logo from './../../assets/icono_links.jpg';
 
 function Productos() {
     return (
@@ -12,22 +13,32 @@ function Productos() {
                     <Col md={6} key={product.id} className="mb-4">
                         <Card>
                             <Card.Img variant="top" src={product.logo} />
-                            <Card.Body>
+                            <Card.Body className="px-10">
                                 <Card.Text>{product.descripcion}</Card.Text>
                                 <div className="mt-3">
                                     <Row>
-                                        <Col md={4}>
-                                            {product.beneficios.map((beneficio, index) => (
-                                                <li key={index}> {beneficio}</li>
-                                            ))}
+                                        <Col md={6}>
+                                            <ul className="benefits-list">
+                                                {product.beneficios.map((beneficio, index) => (
+                                                    <li key={index}> {beneficio}</li>
+                                                ))}
+                                            </ul>
                                         </Col>
-                                        <Col md={4}>
-                                            <Button href={product.marbetes} variant="link">
-                                                Ver marbete
-                                            </Button>
-                                            <Button href={product.hojaSeguridad} variant="link">
-                                                Ver hoja de seguridad
-                                            </Button>
+                                        <Col md={6}>
+                                            <ul className="hojas-list">
+                                                <Button href={product.marbetes} variant="link">
+                                                    <img src={logo} alt="icono" className="icono-link me-2" />
+                                                    Ver marbete
+                                                </Button>
+                                                <Button href={product.hojaSeguridad} variant="link">
+                                                    <img src={logo} alt="icono" className="icono-link me-2" />
+                                                    Ver reglas de seguridad
+                                                </Button>
+                                                <Button href={product.hojaSeguridad} variant="link">
+                                                    <img src={logo} alt="icono" className="icono-link me-2" />
+                                                    Ver imagen
+                                                </Button>
+                                            </ul>
                                         </Col>
                                     </Row>
                                 </div>
@@ -35,14 +46,14 @@ function Productos() {
                                 <Card.Text>{product.presentacion}</Card.Text>
                                 <Card.Title>Dosis:</Card.Title>
                                 <Card.Text>{product.dosis}</Card.Text>
-                                <Card.Title>Características:</Card.Title>
+                                <Card.Title className="caracteristics">Características:</Card.Title>
                                 <Card.Text>{product.caracteristicas}</Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
                 ))}
             </Row>
-        </div>
+        </div >
     );
 }
 
