@@ -1,47 +1,126 @@
+/* header.scss */
+
+.logo-carousel-container {
+  position: relative;
+  width: 100%;
+  max-width: 100vh;
+  /* Tamaño máximo del contenedor */
+  overflow: hidden;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .logo-carousel-container {
+    height: 200px;
+    /* Ajuste de altura para pantallas pequeñas */
+  }
+}
+
 .logo-carousel {
-    position: relative;
-    width: 100vh;
-    //height: 100vh;
-    overflow: hidden;
-  }
-  
-  .logo-carousel img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    opacity: 0;
-    animation: fadeInOut 8s infinite;
-  }
-  
-  .logo-carousel img:nth-child(1) {
-    animation-delay: 0s;
-  }
-  
-  .logo-carousel img:nth-child(2) {
-    animation-delay: 2s;
-  }
-  
-  .logo-carousel img:nth-child(3) {
-    animation-delay: 4s;
-  }
-  
-  @keyframes fadeInOut {
-    0% {
-      opacity: 0;
-    }
-    10%, 30% {
-      opacity: 1;
-    }
-    40%, 100% {
-      opacity: 0;
-    }
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.logo-carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  animation: fadeInOut 6s infinite;
+  z-index: 1;
+}
+
+.logo-carousel img:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.logo-carousel img:nth-child(2) {
+  animation-delay: 2s;
+}
+
+.logo-carousel img:nth-child(3) {
+  animation-delay: 4s;
+}
+
+/* Animación de fadeInOut */
+@keyframes fadeInOut {
+  0% {
+    opacity: 0.4;
   }
 
-header .nav {
-    width: calc(100%);
-    padding: 65px 365px;
-    display: flex;
-    flex-direction: row;   
+  10%,
+  30% {
+    opacity: 1;
+  }
+
+  40%,
+  100% {
+    opacity: 0.4;
+  }
+}
+
+/* Estilos del Nav */
+.nav {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 30px;
+  z-index: 9999;
+  /* Mantener por encima de las imágenes */
+  font-size: 1.2em;
+
+  @media (max-width: 768px) {
+    top: 10%;
+    /* Ajuste de posición en pantallas pequeñas */
+    gap: 15px;
+    font-size: 1em;
+  }
+}
+
+/* Estilo de la subtítulo */
+.subtitle {
+  font-size: 1.2em;
+
+  @media (min-width: 768px) {
+    font-size: 1.5em;
+  }
+}
+
+/* header.scss */
+
+/* Contenedor de la galería de productos */
+.product-gallery {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Imágenes de productos */
+.product-image {
+  max-width: 170px;
+  /* Ancho máximo */
+  max-height: 170px;
+  /* Altura máxima */
+  object-fit: contain;
+  /* Asegura que la imagen mantenga proporciones */
+  width: 100%;
+  /* Se adapta al ancho disponible */
+  height: auto;
+  /* Ajusta la altura automáticamente */
 }
