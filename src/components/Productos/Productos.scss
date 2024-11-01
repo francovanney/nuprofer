@@ -1,10 +1,13 @@
 .card {
-    padding: 15px;
+    padding: 50px;
     display: flex;
     text-align: center;
     align-items: center;
     border: 2px solid #2f5b04 !important;
     border-radius: 20px !important;
+    width: 600px;
+    height: 500px;
+    min-height: 800px;
 }
 
 .card-body {
@@ -49,8 +52,10 @@
     text-align: left !important;
     text-decoration: none !important;
 }
+
 .btn-link:hover {
-    color: green !important; /* Cambia el color a verde al pasar el mouse */
+    color: green !important;
+    /* Cambia el color a verde al pasar el mouse */
 }
 
 .caracteristics {
