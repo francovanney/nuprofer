@@ -1,18 +1,19 @@
 .card {
-    padding: 50px;
+    padding: 40px;
     display: flex;
     text-align: center;
     align-items: center;
     border: 2px solid #2f5b04 !important;
     border-radius: 20px !important;
-    width: 600px;
-    height: 500px;
-    min-height: 800px;
+    //width: 600px;
+    //height: 600px;
+    min-height: 620px;
+    padding-bottom: 10px !important;
 }
 
 .card-body {
-    padding-left: 40px !important;
-    padding-right: 40px !important;
+    padding-left: 30px !important;
+    padding-right: 10px !important;
 }
 
 .card-img-top {
@@ -72,3 +73,16 @@
     width: 22px;
     height: auto;
 }
+
+.hojas-list .btn-link {
+    font-size: 11px;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.custom-margin-left {
+    margin-left: 19px !important;
+}
+

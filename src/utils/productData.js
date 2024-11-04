@@ -5,7 +5,7 @@ const productData = [
     titulo: "CONCENTRADO SOLUBLE",
     logo: "/src/assets/logoProductos/NUPROACTIVE.png",
     envase: "/path-to-envase/specialoil.jpg",
-    descripcion: "Estéres metílicos de ácidos grasos de aceite de soja",
+    descripcion: "Alcohol graso etoxilado + siicona",
     marbetes: "/docs/marbetes/specialoil.pdf",
     hojaSeguridad: "/docs/hojas_seguridad/specialoil.pdf",
     presentacion: "Botella de 1 litro",
@@ -23,7 +23,7 @@ const productData = [
     id: 2,
     nombre: "Nupro Spray",
     titulo: "CONCENTRADO SOLUBLE",
-    logo: "/src/assets/logoProductos/NUPROSPRAY SC.png",
+    logo: "/src/assets/logoProductos/NUPROSPRAY_SC.png",
     envase: "/path-to-envase/specialoil.jpg",
     descripcion:
       "Alcohol graso etoxilado + silicona + ácido fosfórico secuestrante de cationes",
@@ -44,7 +44,7 @@ const productData = [
     id: 3,
     nombre: "Spray Oil M",
     titulo: "CONCENTRADO SOLUBLE",
-    logo: "/src/assets/logoProductos/SPRAYOIL M.png",
+    logo: "/src/assets/logoProductos/SPRAYOIL_M.png",
     envase: "/path-to-envase/specialoil.jpg",
     descripcion: "Estéres metílicos de ácidos grasos de aceite de soja",
     marbetes: "/docs/marbetes/specialoil.pdf",
@@ -59,7 +59,7 @@ const productData = [
     id: 4,
     nombre: "Spray Oil",
     titulo: "CONCENTRADO SOLUBLE",
-    logo: "/src/assets/logoProductos/SPRAY OIL.png",
+    logo: "/src/assets/logoProductos/SPRAY_OIL.png",
     envase: "/path-to-envase/specialoil.jpg",
     descripcion:
       "Estéres metálicos de ácidos grasos de aceite de soja + silicona",
@@ -184,7 +184,7 @@ const productData = [
     presentacion: "Bidón de 5 litros",
     dosis: "500c.c. por Ha.",
     caracteristicas:
-      "Es un fertilizante orgánico-mineral con la capacidad de activar diferentes acciones metabólicas en las plantas. Es una formulación que contiene aminoácidos, extracto de algas, fosfito de potasio y micronutrientes. Combina tres modos de acción estimulante que le permiten a las plantas revertir situaciones de estrés y aumentar el rendimiento de los cultivos",
+      "Es un fertilizante orgánico-mineral con la capacidad de activar diferentes acciones metabólicas en las plantas. Es una formulación que contiene aminoácidos, extracto de algas, fosfito de potasio y micronutrientes. Combina tres modos de acción estimulante que le permiten a las plantas revertir situaciones de estrés y aumentar el rendimiento de los cultivos.",
     beneficios: [
       "MEJORAS LA ACTIVIDAD METABOLICA",
       "AUMENTA LAS DEFENSAS NATURALES",
