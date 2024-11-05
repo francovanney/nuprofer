@@ -42,14 +42,16 @@ function Productos() {
                                                     />
                                                     Ver reglas de seguridad
                                                 </Button>
-                                                <Button href={product.hojaSeguridad} variant="link">
-                                                    <img
-                                                        src={logo}
-                                                        alt="icono"
-                                                        className="icono-link me-2"
-                                                    />
-                                                    Ver imagen
-                                                </Button>
+                                                {product.imagen && (
+                                                    <Button href={product.imagen} variant="link">
+                                                        <img
+                                                            src={logo}
+                                                            alt="icono"
+                                                            className="icono-link me-2"
+                                                        />
+                                                        Ver imagen
+                                                    </Button>
+                                                )}
                                             </ul>
                                         </Col>
                                     </Row>

@@ -8,6 +8,7 @@ const productData = [
     descripcion: "Alcohol graso etoxilado + siicona",
     marbetes: "/docs/marbetes/specialoil.pdf",
     hojaSeguridad: "/docs/hojas_seguridad/specialoil.pdf",
+    imagenes: "/docs/marbetes/specialoil.pdf",
     presentacion: "Botella de 1 litro",
     dosis: "35 a 50 c.c. cada 100 lts de caldo a aplicar",
     caracteristicas:
@@ -29,6 +30,7 @@ const productData = [
       "Alcohol graso etoxilado + silicona + ácido fosfórico secuestrante de cationes",
     marbetes: "/docs/marbetes/specialoil.pdf",
     hojaSeguridad: "/docs/hojas_seguridad/specialoil.pdf",
+    imagenes: "/docs/marbetes/specialoil.pdf",
     presentacion: "Botella de 1 litro",
     dosis: "50 a 80 c.c. cada 100 lts de caldo a aplicar.",
     caracteristicas:
@@ -49,6 +51,7 @@ const productData = [
     descripcion: "Estéres metílicos de ácidos grasos de aceite de soja",
     marbetes: "/docs/marbetes/specialoil.pdf",
     hojaSeguridad: "/docs/hojas_seguridad/specialoil.pdf",
+    imagenes: "/docs/marbetes/specialoil.pdf",
     presentacion: "Bidón de 20 litros",
     dosis: "200 a 500 c.c. cada 100 lts de caldo a aplicar.",
     caracteristicas:
@@ -61,6 +64,7 @@ const productData = [
     titulo: "CONCENTRADO SOLUBLE",
     logo: "/src/assets/logoProductos/SPRAY_OIL.png",
     envase: "/path-to-envase/specialoil.jpg",
+    imagenes: "/docs/marbetes/specialoil.pdf",
     descripcion:
       "Estéres metálicos de ácidos grasos de aceite de soja + silicona",
     marbetes: "/docs/marbetes/specialoil.pdf",
@@ -86,6 +90,7 @@ const productData = [
     descripcion: "Aceite desgomado de soja",
     marbetes: "/docs/marbetes/specialoil.pdf",
     hojaSeguridad: "/docs/hojas_seguridad/specialoil.pdf",
+    imagenes: "/docs/marbetes/specialoil.pdf",
     presentacion: "Bidón de 20 litros",
     dosis: "500 a 1.000 c.c. cada 100 lts de caldo a aplicar.",
     caracteristicas:
@@ -94,31 +99,25 @@ const productData = [
   },
   {
     id: 6,
-    nombre: "Sulfa Plus",
+    nombre: "Spray Top",
     titulo: "",
-    logo: "/src/assets/logoProductos/SULFAPLUS.png",
+    logo: "/src/assets/logoProductos/SPRAYTOP_MEZCLAS.png",
     envase: "/path-to-envase/specialoil.jpg",
-    descripcion:
-      "Sulfato de amonio + ácido fosfórico + secuestrante de cationes",
+    imagenes: "/docs/marbetes/specialoil.pdf",
+    descripcion: "Aceite desgomado de soja",
     marbetes: "/docs/marbetes/specialoil.pdf",
     hojaSeguridad: "/docs/hojas_seguridad/specialoil.pdf",
-    presentacion: "Bidón de 5 litros",
-    dosis: "300 a 500 c.c. cada 100 lts de caldo a aplicar.",
+    presentacion: "Bidón de 20 litros",
+    dosis: "500 a 1.000 c.c. cada 100 lts de caldo a aplicar.",
     caracteristicas:
-      "Formulación desarrollada y recomendada para mejorar la calidad del agua y potenciar la eficiencia de control de los fitosanitarios. Contiene tres activos que actúan directamente mejorando la calidad del caldo a asperjar.",
-    beneficios: [
-      "TRASLOCADOR",
-      "ACTIVIDOR",
-      "POTENCIADOR",
-      "SECUESTRANTE",
-      "ACIDIFICANTE",
-    ],
+      "Aceite vegetal emulsionable con efecto tensioactivo para ser utilizado como antievaporante en aplicaciones aéreas y terrestres de agroquímicos.",
+    beneficios: ["HUMECTANTE", "ANTIEVAPORANTE"],
   },
   {
     id: 7,
-    nombre: "Sulfa Plus 2",
+    nombre: "Sulfa Plus",
     titulo: "",
-    logo: "/src/assets/logoProductos/SPRAYTOP MEZCLAS.png",
+    logo: "/src/assets/logoProductos/SULFAPLUS.png",
     envase: "/path-to-envase/specialoil.jpg",
     descripcion:
       "Sulfato de amonio + ácido fosfórico + secuestrante de cationes",
