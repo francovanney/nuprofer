@@ -86,3 +86,18 @@
     margin-left: 19px !important;
 }
 
+.category-selector {
+    .category-image {
+        width: 260px;//160px;
+        cursor: pointer;
+        transition: opacity 0.3s ease;
+
+        &.active {
+            opacity: 1;
+        }
+
+        &.inactive {
+            opacity: 0.5;
+        }
+    }
+}

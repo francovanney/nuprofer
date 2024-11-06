@@ -2,7 +2,7 @@ const productData = [
   {
     id: 1,
     nombre: "Nupro Active",
-    titulo: "CONCENTRADO SOLUBLE",
+    titulo: "adyuvantes",
     logo: "/src/assets/logoProductos/NUPROACTIVE.png",
     envase: "/path-to-envase/specialoil.jpg",
     descripcion: "Alcohol graso etoxilado + siicona",
@@ -23,7 +23,7 @@ const productData = [
   {
     id: 2,
     nombre: "Nupro Spray",
-    titulo: "CONCENTRADO SOLUBLE",
+    titulo: "adyuvantes",
     logo: "/src/assets/logoProductos/NUPROSPRAY_SC.png",
     envase: "/path-to-envase/specialoil.jpg",
     descripcion:
@@ -45,7 +45,7 @@ const productData = [
   {
     id: 3,
     nombre: "Spray Oil M",
-    titulo: "CONCENTRADO SOLUBLE",
+    titulo: "adyuvantes",
     logo: "/src/assets/logoProductos/SPRAYOIL_M.png",
     envase: "/path-to-envase/specialoil.jpg",
     descripcion: "Estéres metílicos de ácidos grasos de aceite de soja",
@@ -61,7 +61,7 @@ const productData = [
   {
     id: 4,
     nombre: "Spray Oil",
-    titulo: "CONCENTRADO SOLUBLE",
+    titulo: "adyuvantes",
     logo: "/src/assets/logoProductos/SPRAY_OIL.png",
     envase: "/path-to-envase/specialoil.jpg",
     imagenes: "/docs/marbetes/specialoil.pdf",
@@ -84,7 +84,7 @@ const productData = [
   {
     id: 5,
     nombre: "Special Oil",
-    titulo: "CONCENTRADO SOLUBLE",
+    titulo: "adyuvantes",
     logo: "/src/assets/logoProductos/SPECIALOIL.png",
     envase: "/path-to-envase/specialoil.jpg",
     descripcion: "Aceite desgomado de soja",
@@ -100,7 +100,7 @@ const productData = [
   {
     id: 6,
     nombre: "Spray Top",
-    titulo: "",
+    titulo: "bioestimulantes",
     logo: "/src/assets/logoProductos/SPRAYTOP_MEZCLAS.png",
     envase: "/path-to-envase/specialoil.jpg",
     imagenes: "/docs/marbetes/specialoil.pdf",
@@ -116,7 +116,7 @@ const productData = [
   {
     id: 7,
     nombre: "Sulfa Plus",
-    titulo: "",
+    titulo: "fertilizantes",
     logo: "/src/assets/logoProductos/SULFAPLUS.png",
     envase: "/path-to-envase/specialoil.jpg",
     descripcion:
@@ -138,7 +138,7 @@ const productData = [
   {
     id: 8,
     nombre: "Sulfatec",
-    titulo: "LIQUIDO",
+    titulo: "fertilizantes",
     logo: "/src/assets/logoProductos/SULFATEC.png",
     envase: "/path-to-envase/specialoil.jpg",
     descripcion: "Sulfato de amonio",
@@ -153,7 +153,7 @@ const productData = [
   {
     id: 9,
     nombre: "Animo Plus",
-    titulo: "LIQUIDO",
+    titulo: "fertilizantes",
     logo: "/src/assets/logoProductos/AMINOPLUS.png",
     envase: "/path-to-envase/specialoil.jpg",
     descripcion: "Aminoácido de origen vegetal + extracto de algas",
@@ -173,7 +173,7 @@ const productData = [
   {
     id: 10,
     nombre: "Bio Active",
-    titulo: "LIQUIDO",
+    titulo: "bioestimulantes",
     logo: "/src/assets/logoProductos/BIOACTIVE.png",
     envase: "/path-to-envase/specialoil.jpg",
     descripcion:

@@ -1,15 +1,46 @@
 // src/components/Productos.js
 import "./Productos.scss";
-import React from "react";
+import React, { useState } from "react";
 import { Card, Col, Row, Button, Container } from "react-bootstrap";
 import productData from "./../../utils/productData";
 import logo from "./../../assets/icono_links.jpg";
+import imgAdyuvantes from "./../../assets/secciones/adyuvantes.png";
+import imgFertilizantes from "./../../assets/secciones/fertilizantes.png";
+import imgBioestimulantes from "./../../assets/secciones/bioestimulantes.png";
 
 function Productos() {
+    const [selectedCategory, setSelectedCategory] = useState(null);
+
+    const filteredProducts = selectedCategory
+        ? productData.filter((product) => product.titulo === selectedCategory)
+        : productData;
+
     return (
-        <Container className="page-section mt-4 d-flex justify-content-center">
+        <Container className="page-section justify-content-center">
+
+            <div className="category-selector d-flex justify-content-around mb-4">
+                <img
+                    src={imgAdyuvantes}
+                    alt="Adyuvantes"
+                    className={`category-image ${selectedCategory === "adyuvantes" ? "active" : "inactive"}`}
+                    onClick={() => setSelectedCategory("adyuvantes")}
+                />
+                <img
+                    src={imgFertilizantes}
+                    alt="Fertilizantes"
+                    className={`category-image ${selectedCategory === "fertilizantes" ? "active" : "inactive"}`}
+                    onClick={() => setSelectedCategory("fertilizantes")}
+                />
+                <img
+                    src={imgBioestimulantes}
+                    alt="Bioestimulantes"
+                    className={`category-image ${selectedCategory === "bioestimulantes" ? "active" : "inactive"}`}
+                    onClick={() => setSelectedCategory("bioestimulantes")}
+                />
+            </div>
+
             <Row>
-                {productData.map((product) => (
+                {filteredProducts.map((product) => (
                     <Col md={6} key={product.id} className="mb-4">
                         <Card>
                             <Card.Img variant="top" src={product.logo} />
