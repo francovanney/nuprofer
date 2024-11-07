@@ -4,16 +4,16 @@ import Maiz from "../../assets/logo_maiz.png";
 import Soja from "../../assets/logo_soja.png";
 import Trigo from "../../assets/logo_trigo.png";
 import { Container, Row, Col, Image, Nav } from "react-bootstrap";
-import AMINOPLUS from "../../assets/logoProductos/AMINOPLUS.png";
-import BIOACTIVE from "../../assets/logoProductos/BIOACTIVE.png";
-import NUPROACTIVE from "../../assets/logoProductos/NUPROACTIVE.png";
-import NUPROSPRAY_SC from "../../assets/logoProductos/NUPROSPRAY_SC.png";
-import SPECIALOIL from "../../assets/logoProductos/SPECIALOIL.png";
-import SPRAY_OIL from "../../assets/logoProductos/SPRAY_OIL.png";
-import SPRAYOIL_M from "../../assets/logoProductos/SPRAYOIL_M.png";
-import SPRAYTOP_MEZCLA from "../../assets/logoProductos/SPRAYTOP_MEZCLAS.png";
-import SULFAPLUS from "../../assets/logoProductos/SULFAPLUS.png";
-import SULFATEC from "../../assets/logoProductos/SULFATEC.png";
+import AMINOPLUS from "../../assets/logoMiniaturas/AMINOPLUS.png";
+import BIOACTIVE from "../../assets/logoMiniaturas/BIOACTIVE.png";
+import NUPROACTIVE from "../../assets/logoMiniaturas/NUPR0ACTIVE.png";
+import NUPROSPRAY_SC from "../../assets/logoMiniaturas/NUPROSPRAY.png";
+import SPECIALOIL from "../../assets/logoMiniaturas/SPECIALOIL.png";
+import SPRAY_OIL from "../../assets/logoMiniaturas/SPRAY_OIL.png";
+import SPRAYOIL_M from "../../assets/logoMiniaturas/SPRAYOIL_M.png";
+import SPRAYTOP_MEZCLA from "../../assets/logoMiniaturas/SPRAYTOP_MEZCLAS.png";
+import SULFAPLUS from "../../assets/logoMiniaturas/SULFAPLUS.png";
+import SULFATEC from "../../assets/logoMiniaturas/SULFATEC.png";
 
 const Header = () => {
     const imgWidth = 200; // Tamaño uniforme para todas las imágenes
