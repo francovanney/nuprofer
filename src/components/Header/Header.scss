@@ -3,10 +3,9 @@
 .logo-carousel-container {
   position: relative;
   width: 100%;
-  max-width: 100vh;
   /* Tamaño máximo del contenedor */
   overflow: hidden;
-  height: 300px;
+  height: 350px;
   display: flex;
   justify-content: center;
 }
@@ -21,6 +20,7 @@
 .logo-carousel {
   position: relative;
   width: 100%;
+  aspect-ratio: 16 / 9;
   height: 100%;
 }
 
@@ -47,20 +47,33 @@
   animation-delay: 4s;
 }
 
-/* Animación de fadeInOut */
 @keyframes fadeInOut {
-  0% {
-    opacity: 0.4;
-  }
 
-  10%,
-  30% {
+  0%,
+  80% {
     opacity: 1;
   }
 
-  40%,
+  81%,
   100% {
-    opacity: 0.4;
+    opacity: 0;
+  }
+}
+
+
+
+/* Animación de fadeInOut */
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
   }
 }
 
