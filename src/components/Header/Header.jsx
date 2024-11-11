@@ -30,10 +30,14 @@ const Header = () => {
         <div className="logo-carousel-container position-relative">
           {/* Menú de navegación sobre el carrusel */}
           <Nav className="nav">
-            <Nav.Link as={"span"} className="text-black">
+            <Nav.Link as={"button"} className="text-black">
               Empresa
             </Nav.Link>
-            <Nav.Link as={"span"} className="text-black">
+            <Nav.Link
+              as={"button"}
+              className="text-black"
+              onClick={() => navigate("/")}
+            >
               Productos
             </Nav.Link>
             <Nav.Link

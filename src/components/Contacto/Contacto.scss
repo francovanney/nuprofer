@@ -1,0 +1,28 @@
+h3 {
+    width: 100%;
+    background-color: #066335;
+    color: #FFF;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.form-control {
+    background-color: #dde8ce !important;
+    border-radius: 0px !important;
+
+    &:focus {
+        border-color: black !important;
+        box-shadow: 0 0 0 0 black !important;
+    }
+}
+
+button {
+    background-color: transparent !important;
+    color: black !important;
+    border-color: transparent !important;
+}
+
+.text-danger {
+    margin-top: 0.25rem;
+    font-size: 0.875em;
+}

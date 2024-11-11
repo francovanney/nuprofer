@@ -31,7 +31,7 @@
   width: 100%;
   height: 100%;
   opacity: 0;
-  animation: fadeInOut 6s infinite;
+  animation: fadeInOut 8s infinite;
   z-index: 1;
 }
 
@@ -45,19 +45,6 @@
 
 .logo-carousel img:nth-child(3) {
   animation-delay: 4s;
-}
-
-@keyframes fadeInOut {
-
-  0%,
-  80% {
-    opacity: 1;
-  }
-
-  81%,
-  100% {
-    opacity: 0;
-  }
 }
 
 
