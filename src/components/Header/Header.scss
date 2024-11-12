@@ -76,11 +76,12 @@
   /* Mantener por encima de las imágenes */
   font-size: 1.2em;
 
-  @media (max-width: 768px) {
-    top: 10%;
+  @media (max-width: 1170px) {
+    flex-wrap: nowrap !important;
+    top: 75%;
     /* Ajuste de posición en pantallas pequeñas */
-    gap: 15px;
-    font-size: 1em;
+    gap: 5px;
+    font-size: 1.2em;
   }
 }
 
@@ -126,8 +127,17 @@
 }
 
 @media (max-width: 1200px) {
-    .container, .container-sm {
-        max-width: unset !important; 
-        margin: unset !important; 
-    }
+
+  .container,
+  .container-sm {
+    max-width: unset !important;
+    margin: unset !important;
+  }
+}
+
+.empresa {
+  text-align: -webkit-center;
+  font-size: 1.30em;
+  font-style: italic;
+  max-width: 70vh;
 }
