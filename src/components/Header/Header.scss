@@ -29,7 +29,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  //height: 100%;
   opacity: 0;
   animation: fadeInOut 8s infinite;
   z-index: 1;
@@ -123,4 +123,11 @@
   /* Se adapta al ancho disponible */
   height: auto;
   /* Ajusta la altura automáticamente */
+}
+
+@media (max-width: 1200px) {
+    .container, .container-sm {
+        max-width: unset !important; 
+        margin: unset !important; 
+    }
 }
