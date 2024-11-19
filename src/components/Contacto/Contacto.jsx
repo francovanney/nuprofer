@@ -125,7 +125,7 @@ const Contacto = () => {
               </Col>
             </Row>
 
-            <Container className="d-flex justify-content-end mb-2">
+            <Container className="d-flex justify-content-end mb-2 mt-2">
               <Button onClick={handleSubmit}>
                 <img
                   src={Logo}

@@ -1,6 +1,6 @@
-import React from "react";
+import "./Footer.scss";
 
-function Footer() {
+const Footer = () => {
   return (
     <footer className="text-center py-4">
       <p>
@@ -9,6 +9,6 @@ function Footer() {
       </p>
     </footer>
   );
-}
+};
 
 export default Footer;

@@ -1,0 +1,15 @@
+footer {
+    background-color: black;
+    color: white;
+    border-top: 10px solid #d0e103;
+    height: 80px;
+    font-size: .9em;
+
+    p {
+        background-color: black;
+        padding-bottom: 20px;
+        display: flex;
+        text-align: center;
+        justify-self: center;
+    }
+}
