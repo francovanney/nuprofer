@@ -100,7 +100,7 @@ const productData = [
   {
     id: 6,
     nombre: "Spray Top",
-    titulo: "bioestimulantes",
+    titulo: "adyuvantes",
     logo: "/src/assets/logoProductos/SPRAYTOP_MEZCLAS.png",
     envase: "/path-to-envase/specialoil.jpg",
     imagenes: "/docs/marbetes/specialoil.pdf",
@@ -153,7 +153,7 @@ const productData = [
   {
     id: 9,
     nombre: "Animo Plus",
-    titulo: "fertilizantes",
+    titulo: "bioestimulantes",
     logo: "/src/assets/logoProductos/AMINOPLUS.png",
     envase: "/path-to-envase/specialoil.jpg",
     descripcion: "Aminoácido de origen vegetal + extracto de algas",
