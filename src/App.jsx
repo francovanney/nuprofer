@@ -14,6 +14,7 @@ function App() {
         <Routes>
           {/* Ruta general que usa el Layout (Header y Footer) */}
           <Route>
+            <Route path="/nuprofer" element={<Productos />} />
             <Route path="/" element={<Productos />} />
             {/* Aquí agregarás otras rutas que necesiten Header y Footer */}
             <Route path="/contacto" element={<Contacto />} />
