@@ -6,9 +6,9 @@ const productData = [
     logo: "public/NUPROACTIVE.png",
     envase: "/path-to-envase/specialoil.jpg",
     descripcion: "Alcohol graso etoxilado + siicona",
-    marbetes: "/docs/marbetes/specialoil.pdf",
-    hojaSeguridad: "/docs/hojas_seguridad/specialoil.pdf",
-    imagenes: "/docs/marbetes/specialoil.pdf",
+    marbetes: "public/pdf/nuproactive/marbete.pdf",
+    hojaSeguridad: "public/pdf/nuproactive/seguridad.pdf",
+    imagen: "public/pdf/nuproactive/imagen.pdf",
     presentacion: "Botella de 1 litro",
     dosis: "35 a 50 c.c. cada 100 lts de caldo a aplicar",
     caracteristicas:
@@ -28,9 +28,9 @@ const productData = [
     envase: "/path-to-envase/specialoil.jpg",
     descripcion:
       "Alcohol graso etoxilado + silicona + ácido fosfórico secuestrante de cationes",
-    marbetes: "/docs/marbetes/specialoil.pdf",
-    hojaSeguridad: "/docs/hojas_seguridad/specialoil.pdf",
-    imagenes: "/docs/marbetes/specialoil.pdf",
+    marbetes: "public/pdf/nuprospray/marbete.pdf",
+    hojaSeguridad: "public/pdf/nuprospray/seguridad.pdf",
+    imagen: "public/pdf/nuprospray/imagen.pdf",
     presentacion: "Botella de 1 litro",
     dosis: "50 a 80 c.c. cada 100 lts de caldo a aplicar.",
     caracteristicas:
@@ -49,9 +49,9 @@ const productData = [
     logo: "public/SPRAYOIL_M.png",
     envase: "/path-to-envase/specialoil.jpg",
     descripcion: "Estéres metílicos de ácidos grasos de aceite de soja",
-    marbetes: "/docs/marbetes/specialoil.pdf",
-    hojaSeguridad: "/docs/hojas_seguridad/specialoil.pdf",
-    imagenes: "/docs/marbetes/specialoil.pdf",
+    marbetes: "public/pdf/sprayoilm/marbete.pdf",
+    hojaSeguridad: "public/pdf/sprayoilm/seguridad.pdf",
+    imagen: "public/pdf/sprayoilm/imagen.png",
     presentacion: "Bidón de 20 litros",
     dosis: "200 a 500 c.c. cada 100 lts de caldo a aplicar.",
     caracteristicas:
@@ -67,8 +67,9 @@ const productData = [
     imagenes: "/docs/marbetes/specialoil.pdf",
     descripcion:
       "Estéres metálicos de ácidos grasos de aceite de soja + silicona",
-    marbetes: "/docs/marbetes/specialoil.pdf",
-    hojaSeguridad: "/docs/hojas_seguridad/specialoil.pdf",
+    marbetes: "public/pdf/sprayoil/marbete.pdf",
+    hojaSeguridad: "public/pdf/sprayoil/seguridad.pdf",
+    imagen: "public/pdf/sprayoil/imagen.png",
     presentacion: "Bidón de 5 litros",
     dosis: "200 a 250 c.c. cada 100 lts de caldo a aplicar.",
     caracteristicas:
@@ -88,9 +89,9 @@ const productData = [
     logo: "public/SPECIALOIL.png",
     envase: "/path-to-envase/specialoil.jpg",
     descripcion: "Aceite desgomado de soja",
-    marbetes: "/docs/marbetes/specialoil.pdf",
-    hojaSeguridad: "/docs/hojas_seguridad/specialoil.pdf",
-    imagenes: "/docs/marbetes/specialoil.pdf",
+    marbetes: "public/pdf/specialoil/marbete.pdf",
+    hojaSeguridad: "public/pdf/specialoil/seguridad.pdf",
+    imagen: "public/pdf/specialoil/imagen.png",
     presentacion: "Bidón de 20 litros",
     dosis: "500 a 1.000 c.c. cada 100 lts de caldo a aplicar.",
     caracteristicas:
@@ -105,8 +106,9 @@ const productData = [
     envase: "/path-to-envase/specialoil.jpg",
     imagenes: "/docs/marbetes/specialoil.pdf",
     descripcion: "Aceite desgomado de soja",
-    marbetes: "/docs/marbetes/specialoil.pdf",
-    hojaSeguridad: "/docs/hojas_seguridad/specialoil.pdf",
+    marbetes: "public/pdf/spraytop/marbete.pdf",
+    hojaSeguridad: "public/pdf/spraytop/seguridad.pdf",
+    imagen: "public/pdf/spraytop/imagen.png",
     presentacion: "Bidón de 20 litros",
     dosis: "500 a 1.000 c.c. cada 100 lts de caldo a aplicar.",
     caracteristicas:
@@ -121,8 +123,8 @@ const productData = [
     envase: "/path-to-envase/specialoil.jpg",
     descripcion:
       "Sulfato de amonio + ácido fosfórico + secuestrante de cationes",
-    marbetes: "/docs/marbetes/specialoil.pdf",
-    hojaSeguridad: "/docs/hojas_seguridad/specialoil.pdf",
+    marbetes: "public/pdf/sulfaplus/marbete.pdf",
+    imagen: "public/pdf/sulfaplus/imagen.png",
     presentacion: "Bidón de 5 litros",
     dosis: "300 a 500 c.c. cada 100 lts de caldo a aplicar.",
     caracteristicas:
@@ -142,8 +144,8 @@ const productData = [
     logo: "public/SULFATEC.png",
     envase: "/path-to-envase/specialoil.jpg",
     descripcion: "Sulfato de amonio",
-    marbetes: "/docs/marbetes/specialoil.pdf",
-    hojaSeguridad: "/docs/hojas_seguridad/specialoil.pdf",
+    marbetes: "public/pdf/sulfatec/marbete.pdf",
+    imagen: "public/pdf/sulfatec/imagen.png",
     presentacion: "Bidón de 5 litros",
     dosis: "1.000 a 100 c.c. cada 100 lts de caldo a aplicar.",
     caracteristicas:
@@ -157,8 +159,8 @@ const productData = [
     logo: "public/AMINOPLUS.png",
     envase: "/path-to-envase/specialoil.jpg",
     descripcion: "Aminoácido de origen vegetal + extracto de algas",
-    marbetes: "/docs/marbetes/specialoil.pdf",
-    hojaSeguridad: "/docs/hojas_seguridad/specialoil.pdf",
+    marbetes: "public/pdf/aminoplus/marbete.pdf",
+    imagen: "public/pdf/aminoplus/imagen.png",
     presentacion: "Bidón de 5 litros",
     dosis: "500 a 750 c.c. por Ha",
     caracteristicas:
@@ -178,8 +180,8 @@ const productData = [
     envase: "/path-to-envase/specialoil.jpg",
     descripcion:
       "Aminoácidos + extracto de algas + fosfito de potasio + cobre + boro + zinc",
-    marbetes: "/docs/marbetes/specialoil.pdf",
-    hojaSeguridad: "/docs/hojas_seguridad/specialoil.pdf",
+    marbetes: "public/pdf/bioactive/marbete.pdf",
+    imagen: "public/pdf/bioactive/imagen.png",
     presentacion: "Bidón de 5 litros",
     dosis: "500c.c. por Ha.",
     caracteristicas:
