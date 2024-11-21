@@ -77,7 +77,7 @@ function Productos() {
                                             </ul>
                                         </Col>
                                         <Col md={4} className="p-0">
-                                            <ul className="hojas-list d-flex flex-column pr-4 ">
+                                            <ul className="hojas-list d-flex flex-column px-4 ">
                                                 <Button href={product.marbetes} variant="link">
                                                     <img
                                                         src={logo}
