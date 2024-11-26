@@ -41,7 +41,7 @@ const Header = () => {
     setShowEmpresaInfo(false);
   };
 
-  const isSmallScreen = useMediaQuery({ query: "(min-width: 1170px)" });
+  const isSmallScreen = useMediaQuery({ query: "(min-width: 1000px)" });
 
   return (
     <Container className="page-section">
@@ -112,7 +112,7 @@ const Header = () => {
       {showEmpresaInfo && (
         <>
           <Container className="d-flex justify-content-center">
-            <div className="empresa mb-4 mt-4">
+            <div className="empresa mb-4 ">
               Desde el año 2005 <strong>Nuprofer</strong> presenta una
               calificada línea de productos con máximos niveles de calidad y
               rendimiento, respondiendo a los mayores lineamientos que rigen en

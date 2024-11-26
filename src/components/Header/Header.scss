@@ -73,15 +73,41 @@
   display: flex;
   gap: 30px;
   z-index: 9999;
-  /* Mantener por encima de las imágenes */
   font-size: 1.2em;
 
-  @media (max-width: 1170px) {
+  @media (width <=1130px) {
     flex-wrap: nowrap !important;
     top: 75%;
-    /* Ajuste de posición en pantallas pequeñas */
     gap: 5px;
     font-size: 1.2em;
+  }
+
+  @media (width <=1000px) {
+    flex-wrap: nowrap !important;
+    top: 70%;
+    gap: 5px;
+    font-size: 1.2em;
+  }
+
+  @media (width <=920px) {
+    flex-wrap: nowrap !important;
+    top: 65%;
+    gap: 5px;
+    font-size: 1.2em;
+  }
+
+  @media (width <=760px) {
+    flex-wrap: nowrap !important;
+    top: 85%;
+    gap: 5px;
+    font-size: 1em;
+  }
+
+  @media (width <=550px) {
+    flex-wrap: nowrap !important;
+    top: 55%;
+    gap: 5px;
+    font-size: 1em;
   }
 }
 
