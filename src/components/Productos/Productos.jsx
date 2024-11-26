@@ -10,7 +10,7 @@ import imgBioestimulantes from "./../../assets/secciones/bioestimulantes.png";
 
 function Productos() {
     const [selectedCategory, setSelectedCategory] = useState(null);
-
+    console.log("selectedCategory:", selectedCategory);
     const filteredProducts = selectedCategory
         ? productData.filter((product) => product.titulo === selectedCategory)
         : productData;
@@ -27,7 +27,7 @@ function Productos() {
                         <img
                             src={imgAdyuvantes}
                             alt="Adyuvantes"
-                            className={`category-image ${selectedCategory === "adyuvantes" ? "active" : "inactive"
+                            className={`category-image ${selectedCategory === "adyuvantes" || selectedCategory === null ? "active" : "inactive"
                                 }`}
                             onClick={() => setSelectedCategory("adyuvantes")}
                         />
@@ -40,8 +40,8 @@ function Productos() {
                         <img
                             src={imgFertilizantes}
                             alt="Fertilizantes"
-                            className={`category-image ${selectedCategory === "fertilizantes" ? "active" : "inactive"
-                                }`}
+                            className={`category-image ${selectedCategory === "fertilizantes" || selectedCategory === null ? "active" : "inactive"
+                                } ${selectedCategory === null ? "active" : ""}`}
                             onClick={() => setSelectedCategory("fertilizantes")}
                         />
                     </Col>
@@ -49,8 +49,8 @@ function Productos() {
                         <img
                             src={imgBioestimulantes}
                             alt="Bioestimulantes"
-                            className={`category-image ${selectedCategory === "bioestimulantes" ? "active" : "inactive"
-                                }`}
+                            className={`category-image ${selectedCategory === "bioestimulantes" || selectedCategory === null ? "active" : "inactive"
+                                } ${selectedCategory === null ? "active" : "active"}`}
                             onClick={() => setSelectedCategory("bioestimulantes")}
                         />
                     </Col>

@@ -8,7 +8,7 @@ const productData = [
     descripcion: "Alcohol graso etoxilado + siicona",
     marbetes: "pdf/nuproactive/marbete.pdf",
     hojaSeguridad: "pdf/nuproactive/seguridad.pdf",
-    imagen: "pdf/nuproactive/imagen.pdf",
+    imagen: "pdf/nuproactive/imagen.png",
     presentacion: "Botella de 1 litro",
     dosis: "35 a 50 c.c. cada 100 lts de caldo a aplicar",
     caracteristicas:
@@ -30,7 +30,7 @@ const productData = [
       "Alcohol graso etoxilado + silicona + ácido fosfórico secuestrante de cationes",
     marbetes: "pdf/nuprospray/marbete.pdf",
     hojaSeguridad: "pdf/nuprospray/seguridad.pdf",
-    imagen: "pdf/nuprospray/imagen.pdf",
+    imagen: "pdf/nuprospray/imagen.png",
     presentacion: "Botella de 1 litro",
     dosis: "50 a 80 c.c. cada 100 lts de caldo a aplicar.",
     caracteristicas:
