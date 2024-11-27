@@ -7,24 +7,21 @@ import Footer from "./components/Footer/Footer";
 import Contacto from "./components/Contacto/Contacto"; // Importa el componente Contacto
 
 function App() {
-  return (
-    <div className="App">
-      <Router>
-        <Header />
-        <Routes>
-          {/* Ruta general que usa el Layout (Header y Footer) */}
-          <Route>
-            <Route path="/nuprofer" element={<Productos />} />
-            <Route path="/" element={<Productos />} />
-            {/* Aquí agregarás otras rutas que necesiten Header y Footer */}
-            <Route path="/contacto" element={<Contacto />} />
-          </Route>
-          {/* Ruta de contacto sin Header y Footer */}
-        </Routes>
-        <Footer />
-      </Router>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Router>
+                <Header />
+                <Routes>
+                    <Route>
+                        <Route path="/" element={<Productos />} />
+                        <Route path="/" element={<Productos />} />
+                        <Route path="/contacto" element={<Contacto />} />
+                    </Route>
+                </Routes>
+                <Footer />
+            </Router>
+        </div>
+    );
 }
 
 export default App;
