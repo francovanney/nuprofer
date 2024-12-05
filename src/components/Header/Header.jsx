@@ -32,7 +32,7 @@ const Header = () => {
     };
 
     const handleProductosClick = () => {
-        navigate("/");
+        navigate("/nuprofer/");
         setShowEmpresaInfo(false);
     };
 
@@ -45,7 +45,7 @@ const Header = () => {
 
     return (
         <Container className="page-section">
-            <header className="d-flex align-items-center justify-content-center mx-2 mt-5">
+            <header className="d-flex align-items-center justify-content-center mx-2 mt-4">
                 <Container className="logo-carousel-container">
                     {/* Menú de navegación sobre el carrusel en pantallas grandes */}
                     {!isSmallScreen && (
@@ -126,20 +126,20 @@ const Header = () => {
                     </Container>
                 </>
             )}
-            <p className="text-center subtitle mt-4">
+            <p className="text-center subtitle mt-0 mt-md-4">
                 Investigación y desarrollo por una aplicación eficiente
             </p>
 
             {/* Sección de productos */}
-            <Container className="product-gallery my-4">
+            <Container className="product-gallery my-2 my-md-4">
                 <Row className="row">
                     {[NUPROACTIVE, NUPROSPRAY_SC, SPRAYOIL_M, SPRAY_OIL, SPECIALOIL].map(
                         (product, index) => (
                             <Col
                                 key={index}
-                                xs={6}
+                                xs={2}
                                 md={2}
-                                className="d-flex justify-content-center mb-4"
+                                className="d-flex justify-content-center mb-2 mb-md-4"
                             >
                                 <Image
                                     src={product}
@@ -156,9 +156,9 @@ const Header = () => {
                         (product, index) => (
                             <Col
                                 key={index}
-                                xs={6}
+                                xs={2}
                                 md={2}
-                                className="d-flex justify-content-center mb-4"
+                                className="d-flex justify-content-center mb-2 mb-md-4"
                             >
                                 <Image
                                     src={product}

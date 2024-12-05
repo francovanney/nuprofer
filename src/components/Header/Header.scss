@@ -13,7 +13,9 @@
 @media (max-width: 768px) {
   .logo-carousel-container {
     height: 200px;
-    /* Ajuste de altura para pantallas pequeñas */
+    @media (max-width: 400px) {
+        height: 170px;
+      }
   }
 }
 
@@ -151,6 +153,11 @@
   /* Se adapta al ancho disponible */
   height: auto;
   /* Ajusta la altura automáticamente */
+  @media (max-width: 400px) {
+    width: 160%;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
 }
 
 @media (max-width: 1200px) {
