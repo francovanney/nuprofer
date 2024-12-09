@@ -17,6 +17,7 @@ import SULFATEC from "../../assets/logoMiniaturas/SULFATEC.png";
 import { useNavigate } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
 import React, { useState } from "react";
+import logosBanner from "../../assets/logos-banner.png";
 
 const Header = () => {
     const navigate = useNavigate();
@@ -132,6 +133,7 @@ const Header = () => {
 
             {/* Sección de productos */}
             <Container className="product-gallery my-2 my-md-4">
+                {/*
                 <Row className="row">
                     {[NUPROACTIVE, NUPROSPRAY_SC, SPRAYOIL_M, SPRAY_OIL, SPECIALOIL].map(
                         (product, index) => (
@@ -170,6 +172,8 @@ const Header = () => {
                         )
                     )}
                 </Row>
+                */}
+                <Image src={logosBanner} alt="Logos" className="img-fluid" />
             </Container>
         </Container>
     );

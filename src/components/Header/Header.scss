@@ -121,6 +121,9 @@
   @media (min-width: 768px) {
     font-size: 1.5em;
   }
+  @media (width <= 500px) {
+    font-size: 0.80em !important;
+  }
 }
 
 /* header.scss */
