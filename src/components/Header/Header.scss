@@ -178,3 +178,9 @@
   font-style: italic;
   max-width: 70vh;
 }
+
+@media (max-width: 560px) {
+    .empresa {
+        font-size: 14px;
+    }
+}
