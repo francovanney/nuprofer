@@ -123,9 +123,6 @@
     .hojas-list {
         justify-self: center; 
     }
-    .hoja-seguridad {
-        padding-left: 50px;
-    }
 }
 
 @media (max-width: 400px) {
@@ -135,6 +132,9 @@
     }
     .benefits-list {
         padding-left: 20px !important;
+    }
+    .hoja-seguridad {
+        padding-left: 50px;
     }
 }
 
