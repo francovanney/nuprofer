@@ -93,7 +93,7 @@ function Productos() {
                                                             alt="icono"
                                                             className="icono-link me-2"
                                                         />
-                                                        Ver reglas de seguridad
+                                                        Ver hojas de seguridad
                                                     </Button>
                                                 )}
                                                 {product.imagen && (
@@ -121,13 +121,18 @@ function Productos() {
                                     Dosis:
                                 </Card.Title>
                                 <Card.Text className="custom-margin-left">
-                                    {product.dosis}
+                                    <p
+                                        dangerouslySetInnerHTML={{
+                                            __html: product.dosis,
+                                        }}
+                                    ></p>
                                 </Card.Text>
                                 <Card.Title className="caracteristics p-1">
                                     Características:
                                 </Card.Title>
                                 <Card.Text className="custom-margin-left">
                                     {product.caracteristicas}
+
                                 </Card.Text>
                             </Card.Body>
                         </Card>

@@ -105,15 +105,19 @@ const productData = [
     logo: "SPRAYTOP_MEZCLAS.png",
     envase: "/path-to-envase/specialoil.jpg",
     imagenes: "/docs/marbetes/specialoil.pdf",
-    descripcion: "Aceite desgomado de soja",
+    descripcion: "Alcohol láurico etoxilado",
     marbetes: "pdf/spraytop/marbete.pdf",
     hojaSeguridad: "pdf/spraytop/seguridad.pdf",
     imagen: "pdf/spraytop/imagen.png",
-    presentacion: "Bidón de 20 litros",
-    dosis: "500 a 1.000 c.c. cada 100 lts de caldo a aplicar.",
+    presentacion: "Bidón de 5 litros",
+    dosis: `Volumen de aplicación superior a 50lts.:<br> 
+Uso preventivo de 100 a 300 c. c. por Ha.<br> 
+Recuperador de 300 a 800 c. c. por Ha.<br> 
+Volumen de aplicación menor a 50 lts. por Ha:<br> 
+Aumentar la dosis. Realizar prueba a escalas.`,
     caracteristicas:
-      "Aceite vegetal emulsionable con efecto tensioactivo para ser utilizado como antievaporante en aplicaciones aéreas y terrestres de agroquímicos.",
-    beneficios: ["HUMECTANTE", "ANTIEVAPORANTE"],
+      "Es un adyuvantes que reduce los problemas de incompatibilidad e incrustaciones de mezclas en los tanques, favoreciendo la aplicación y homogenidad de distintos fitosanitarios.",
+    beneficios: ["COMPATIBILIZANTE", "ESTABILIZANTE", "TENSIOACTIVO"],
   },
   {
     id: 7,
