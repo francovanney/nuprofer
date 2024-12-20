@@ -9,7 +9,7 @@ import {
 import Header from "./components/Header/Header";
 import Productos from "./components/Productos/Productos";
 import Footer from "./components/Footer/Footer";
-import Contacto from "./components/Contacto/Contacto"; // Importa el componente Contacto
+import Contacto from "./components/Contacto/Contacto";
 
 function App() {
   return (
