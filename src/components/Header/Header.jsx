@@ -33,7 +33,7 @@ const Header = () => {
     };
 
     const handleProductosClick = () => {
-        navigate("/nuprofer/");
+        navigate("/");
         setShowEmpresaInfo(false);
     };
 
